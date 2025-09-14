@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🌟 Full-Stack Calculator</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #36d1dc, #5b86e5);
+            color: #fff;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            display: inline-block;
+            text-align: left;
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border: none;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #ff7e5f;
+            border: none;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #feb47b;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>🌟 Full-Stack Calculator</h1>
+    <p>Perform Add, Subtract, Multiply, Divide operations instantly!</p>
+
+    <div class="container">
+        <label>Number 1:</label>
+        <input type="number" id="num1" placeholder="Enter first number">
+
+        <label>Number 2:</label>
+        <input type="number" id="num2" placeholder="Enter second number">
+
+        <label>Operation:</label>
+        <select id="operation">
+            <option value="add">➕ Add</option>
+            <option value="subtract">➖ Subtract</option>
+            <option value="multiply">✖ Multiply</option>
+            <option value="divide">➗ Divide</option>
+        </select>
+
+        <button onclick="calculate()">Calculate</button>
+
+        <div class="result" id="result"></div>
+    </div>
+
+    <script>
+        async function calculate() {
+            const x = parseFloat(document.getElementById("num1").value);
+            const y = parseFloat(document.getElementById("num2").value);
+            const op = document.getElementById("operation").value;
+            const resultDiv = document.getElementById("result");
+
+            if (isNaN(x) || isNaN(y)) {
+                resultDiv.textContent = "⚠️ Please enter valid numbers.";
+                return;
+            }
+
+            try {
+                const response = await fetch(`http://127.0.0.1:8000/${op}`, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({ x: x, y: y })
+                });
+
+                const data = await response.json();
+
+                if (data.error) {
+                    resultDiv.textContent = `❌ ${data.error}`;
+                } else {
+                    resultDiv.textContent = `✅ Result: ${data.result}`;
+                }
+            } catch (err) {
+                resultDiv.textContent = `❌ Error: ${err}`;
+            }
+        }
+    </script>
+</body>
+</html>
