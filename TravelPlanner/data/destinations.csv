@@ -1,0 +1,9 @@
+destination_id,name,country,description,image_url,climate,best_time_to_visit
+1,Paris,France,"The City of Light, known for its art, fashion, and cuisine",https://example.com/paris.jpg,Temperate,"April-October"
+2,Tokyo,Japan,"Modern metropolis with ancient traditions",https://example.com/tokyo.jpg,Subtropical,"March-May,September-November"
+3,Rome,Italy,"The Eternal City with rich history and culture",https://example.com/rome.jpg,Mediterranean,"April-June,September-November"
+4,New York,USA,"The Big Apple - never sleeps",https://example.com/nyc.jpg,Continental,"April-June,September-November"
+5,Sydney,Australia,"Harbor city with iconic landmarks",https://example.com/sydney.jpg,Oceanic,"September-November,March-May"
+6,Barcelona,Spain,"Artistic city with unique architecture",https://example.com/barcelona.jpg,Mediterranean,"May-October"
+7,London,UK,"Historic capital with royal heritage",https://example.com/london.jpg,Oceanic,"June-September"
+8,Dubai,UAE,"Modern city in the desert",https://example.com/dubai.jpg,Desert,"November-March"

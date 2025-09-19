@@ -1,0 +1,11 @@
+hotel_id,destination_id,name,price_per_night,rating,availability,amenities
+1,1,Hotel Ritz Paris,800,5,Available,"Luxury,WiFi,Parking,Restaurant,Spa"
+2,1,Hotel des Grands Boulevards,200,4,Available,"Boutique,WiFi,Restaurant"
+3,2,Park Hyatt Tokyo,400,5,Available,"Luxury,WiFi,Parking,Restaurant,Spa,Gym"
+4,2,Hotel Gracery Shinjuku,150,4,Available,"Modern,WiFi,Restaurant"
+5,3,Hassler Roma,600,5,Available,"Luxury,WiFi,Restaurant,Spa"
+6,3,Hotel Artemide,180,4,Available,"Modern,WiFi,Restaurant,Gym"
+7,4,The Plaza New York,700,5,Available,"Luxury,WiFi,Parking,Restaurant,Spa"
+8,4,Pod Hotel Times Square,120,3,Available,"Budget,WiFi"
+9,5,Park Hyatt Sydney,500,5,Available,"Luxury,WiFi,Restaurant,Spa,Gym"
+10,5,Sydney Harbour YHA,80,3,Available,"Budget,WiFi,Kitchen"

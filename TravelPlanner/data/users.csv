@@ -1,0 +1,9 @@
+user_id,username,email,password,role,created_at
+1,admin,admin@travelplanner.com,$2b$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj4J/8K8K8K8,admin,2024-01-01
+2,john_doe,john@example.com,$2b$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj4J/8K8K8K8,user,2024-01-02
+3,jane_smith,jane@example.com,$2b$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj4J/8K8K8K8,user,2024-01-03
+4,test_user,test@example.com,$2b$12$iyt2ENayOw/ef0ImiXdfCeXz9HL0tJ/Hm4CQla/9CvogNXdxtXQLW,user,2025-09-14
+5,Mahima,mahima.gupta13@gmail.com,$2b$12$noW9SDqnkuIJ1Gmf0t4fRueypdLmtlB4MjNHWQmZdw0C3BrP6UgwS,user,2025-09-14
+6,amit,amit.mics@gmail.com,$2b$12$SgvQLuBug5KT/kiRFvRQAO8jNnTNzg2wftxmym8cZywBjLRCXn9Ba,user,2025-09-14
+7,anika,anika.rathore@gmail.com,$2b$12$RKs6HZFRBorx1AU16OEZp.9rEc9CdeiHOjq.fs2nooOBu6CLZ9ZQm,user,2025-09-14
+8,Anika2,anika@gmail.com,$2b$12$FsNkumDwDmoTDfvzy4Lon.FP9j46KDms3Jz8CMHaHinrDAFw2Yv26,user,2025-09-14

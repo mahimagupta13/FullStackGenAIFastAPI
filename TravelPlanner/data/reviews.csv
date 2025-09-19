@@ -1,0 +1,4 @@
+review_id,user_id,destination_id,rating,comment,created_at
+1,2,1,5,Amazing city with incredible food and culture!,2024-01-16
+2,3,2,4,Tokyo was amazing but very crowded,2024-01-21
+3,2,3,5,Rome is absolutely beautiful with so much history,2024-01-25

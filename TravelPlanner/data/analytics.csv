@@ -1,0 +1,90 @@
+analytics_id,type,entity_id,insight_text,generated_at
+1,recommendation,1,Paris is perfect for romantic getaways with its charming cafes and iconic landmarks,2024-01-15
+2,itinerary,2,Tokyo offers a perfect blend of traditional culture and modern innovation,2024-01-20
+3,recommendation,1,"
+    🤖 AI Travel Recommendations (Demo Mode)
+    
+    Based on your preferences, here are some personalized recommendations:
+    
+    📍 **Top Destinations:**
+    - Paris, France - Perfect for culture and food lovers
+    - Tokyo, Japan - Great for adventure and unique experiences
+    - Rome, Italy - Ideal for history enthusiasts
+    
+    🏨 **Hotel Suggestions:**
+    - Budget: Look for 3-star hotels in city centers
+    - Mid-range: 4-star hotels with good amenities
+    - Luxury: 5-star hotels with premium services
+    
+    🎯 **Activities:**
+    - Visit iconic landmarks and museums
+    - Try local cuisine and restaurants
+    - Explore neighborhoods and local culture
+    - Take guided tours for better insights
+    
+    💡 **Travel Tips:**
+    - Book accommodations in advance
+    - Research local customs and etiquette
+    - Keep copies of important documents
+    - Have a flexible itinerary for spontaneous discoveries
+    
+    Note: Set up your GROQ_API_KEY in the .env file for real AI recommendations!
+    ",2025-09-14 16:08:03
+4,recommendation,1,"
+    🤖 AI Travel Recommendations (Demo Mode)
+    
+    Based on your preferences, here are some personalized recommendations:
+    
+    📍 **Top Destinations:**
+    - Paris, France - Perfect for culture and food lovers
+    - Tokyo, Japan - Great for adventure and unique experiences
+    - Rome, Italy - Ideal for history enthusiasts
+    
+    🏨 **Hotel Suggestions:**
+    - Budget: Look for 3-star hotels in city centers
+    - Mid-range: 4-star hotels with good amenities
+    - Luxury: 5-star hotels with premium services
+    
+    🎯 **Activities:**
+    - Visit iconic landmarks and museums
+    - Try local cuisine and restaurants
+    - Explore neighborhoods and local culture
+    - Take guided tours for better insights
+    
+    💡 **Travel Tips:**
+    - Book accommodations in advance
+    - Research local customs and etiquette
+    - Keep copies of important documents
+    - Have a flexible itinerary for spontaneous discoveries
+    
+    Note: Set up your GROQ_API_KEY in the .env file for real AI recommendations!
+    ",2025-09-14 16:14:20
+5,recommendation,1,"
+    🤖 AI Travel Recommendations (Demo Mode)
+    
+    Based on your preferences, here are some personalized recommendations:
+    
+    📍 **Top Destinations:**
+    - Paris, France - Perfect for culture and food lovers
+    - Tokyo, Japan - Great for adventure and unique experiences
+    - Rome, Italy - Ideal for history enthusiasts
+    
+    🏨 **Hotel Suggestions:**
+    - Budget: Look for 3-star hotels in city centers
+    - Mid-range: 4-star hotels with good amenities
+    - Luxury: 5-star hotels with premium services
+    
+    🎯 **Activities:**
+    - Visit iconic landmarks and museums
+    - Try local cuisine and restaurants
+    - Explore neighborhoods and local culture
+    - Take guided tours for better insights
+    
+    💡 **Travel Tips:**
+    - Book accommodations in advance
+    - Research local customs and etiquette
+    - Keep copies of important documents
+    - Have a flexible itinerary for spontaneous discoveries
+    
+    Note: Set up your GROQ_API_KEY in the .env file for real AI recommendations!
+    ",2025-09-14 16:15:12

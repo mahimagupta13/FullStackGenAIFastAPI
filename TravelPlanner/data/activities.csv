@@ -1,0 +1,21 @@
+activity_id,destination_id,name,category,price,rating,duration,description
+1,1,Eiffel Tower Visit,Landmark,25,5,2,Iconic iron tower with city views
+2,1,Louvre Museum,Art,17,5,4,World's largest art museum
+3,1,Seine River Cruise,Entertainment,15,4,1,Scenic boat tour along the Seine
+4,1,Notre-Dame Cathedral,Religious,0,5,1,Historic Gothic cathedral
+5,2,Tokyo Skytree,Landmark,20,5,2,Tallest structure in Japan
+6,2,Senso-ji Temple,Religious,0,4,1,Ancient Buddhist temple
+7,2,Tsukiji Fish Market,Food,0,4,2,World's largest fish market
+8,2,Meiji Shrine,Religious,0,4,1,Shinto shrine in forest setting
+9,3,Colosseum Tour,Historical,16,5,2,Ancient Roman amphitheater
+10,3,Vatican Museums,Art,17,5,4,Extensive art collection
+11,3,Trevi Fountain,Landmark,0,4,1,Baroque fountain for coin tossing
+12,3,Spanish Steps,Landmark,0,4,1,Historic staircase and square
+13,4,Statue of Liberty,Landmark,25,5,3,Iconic symbol of freedom
+14,4,Central Park,Outdoor,0,4,2,Urban park in Manhattan
+15,4,Broadway Show,Entertainment,100,5,3,World-famous theater district
+16,4,Empire State Building,Landmark,40,4,2,Art Deco skyscraper
+17,5,Sydney Opera House,Landmark,43,5,2,Iconic performing arts center
+18,5,Sydney Harbour Bridge,Landmark,0,5,1,Steel arch bridge
+19,5,Bondi Beach,Outdoor,0,4,3,Popular surfing beach
+20,5,Blue Mountains,Outdoor,50,5,8,Scenic mountain range
