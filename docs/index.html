@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project Documentation Index</title>
+  <style>
+    :root { --bg:#0f172a; --card:#0b1220; --text:#e2e8f0; --muted:#94a3b8; --accent:#38bdf8; }
+    html,body { margin:0; padding:0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; background: var(--bg); color: var(--text); }
+    .container { max-width: 960px; margin: 40px auto; padding: 0 20px; }
+    h1 { font-size: 28px; margin: 0 0 16px; }
+    p.lead { color: var(--muted); margin: 0 0 24px; }
+    .card { background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02)); border: 1px solid rgba(255,255,255,0.06); border-radius: 12px; padding: 18px 20px; margin: 14px 0; }
+    ul { margin: 10px 0 0 0; padding: 0 0 0 20px; }
+    li { margin: 8px 0; }
+    .title { font-weight: 600; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .sub { color: var(--muted); }
+    .links { margin-top: 6px; }
+    .links a { margin-right: 14px; }
+    footer { margin: 28px 0; color: var(--muted); font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Project Documentation Index</h1>
+    <p class="lead">Quick links to all projects and their API/usage docs.</p>
+
+    <div class="card">
+      <div class="title">🧳 TravelPlanner</div>
+      <div class="sub">Full‑stack travel planner (FastAPI + Streamlit) with AI recommendations.</div>
+      <div class="links">
+        <a href="TravelPlanner/API.md">API Reference</a>
+        <a href="TravelPlanner/USAGE.md">Usage Guide</a>
+        <a href="../TravelPlanner/README.md">Project README</a>
+        <span class="sub">· API UIs (when running): <a href="http://localhost:8000/docs">Swagger</a> · <a href="http://localhost:8000/redoc">ReDoc</a></span>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="title">📇 FastAPICRM</div>
+      <div class="sub">Minimal in‑memory CRM (FastAPI) with CRUD endpoints.</div>
+      <div class="links">
+        <a href="FastAPICRM/API.md">API Reference</a>
+        <a href="FastAPICRM/USAGE.md">Usage Guide</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="title">⏱️ FastAPICRMLeadTime</div>
+      <div class="sub">CSV‑backed CRM with lead‑time calculation and optional AI qualification.</div>
+      <div class="links">
+        <a href="FastAPICRMLeadTime/API.md">API Reference</a>
+        <a href="FastAPICRMLeadTime/USAGE.md">Usage Guide</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="title">🗄️ FastAPICRMLeadTimeDB</div>
+      <div class="sub">Supabase‑backed CRM with lead‑time and AI qualification.</div>
+      <div class="links">
+        <a href="FastAPICRMLeadTimeDB/API.md">API Reference</a>
+        <a href="FastAPICRMLeadTimeDB/USAGE.md">Usage Guide</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="title">🧮 Sample1 (Arithmetic)</div>
+      <div class="sub">Simple calculator API with sample frontend.</div>
+      <div class="links">
+        <a href="Sample1/API.md">API Reference</a>
+        <a href="Sample1/USAGE.md">Usage Guide</a>
+        <a href="../Sample1/frontend/index.html">Frontend</a>
+      </div>
+    </div>
+
+    <footer>
+      Generated index · Open the Markdown links directly on GitHub for best rendering.
+    </footer>
+  </div>
+</body>
+</html>
